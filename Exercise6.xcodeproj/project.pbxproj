@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A00F6C314FEAFEE00EDFC55 /* ExerciseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A00F6C214FEAFEE00EDFC55 /* ExerciseModel.m */; };
+		4A28464E14EAAFE50069E054 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A28464D14EAAFE50069E054 /* UIKit.framework */; };
+		4A28465014EAAFE50069E054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A28464F14EAAFE50069E054 /* Foundation.framework */; };
+		4A28465214EAAFE50069E054 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A28465114EAAFE50069E054 /* CoreGraphics.framework */; };
+		4A28465814EAAFE50069E054 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A28465614EAAFE50069E054 /* InfoPlist.strings */; };
+		4A28465B14EAAFE50069E054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A28465A14EAAFE50069E054 /* main.m */; };
+		4A28465E14EAAFE50069E054 /* Exercise6AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A28465D14EAAFE50069E054 /* Exercise6AppDelegate.m */; };
+		4A28466114EAAFE50069E054 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A28465F14EAAFE50069E054 /* MainWindow.xib */; };
+		4A28467014EAB02E0069E054 /* ExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A28466E14EAB02E0069E054 /* ExerciseViewController.m */; };
+		4A28467114EAB02E0069E054 /* ExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A28466F14EAB02E0069E054 /* ExerciseViewController.xib */; };
+		4A28467614EAD7780069E054 /* BeerIcon001.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A28467314EAD7780069E054 /* BeerIcon001.png */; };
+		4A28467714EAD7780069E054 /* BeerIcon002.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A28467414EAD7780069E054 /* BeerIcon002.png */; };
+		4A28467814EAD7780069E054 /* BeerIcon003.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A28467514EAD7780069E054 /* BeerIcon003.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A00F6C114FEAFEE00EDFC55 /* ExerciseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseModel.h; sourceTree = "<group>"; };
+		4A00F6C214FEAFEE00EDFC55 /* ExerciseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseModel.m; sourceTree = "<group>"; };
+		4A28464914EAAFE50069E054 /* Exercise6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A28464D14EAAFE50069E054 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A28464F14EAAFE50069E054 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A28465114EAAFE50069E054 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A28465514EAAFE50069E054 /* Exercise6-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Exercise6-Info.plist"; sourceTree = "<group>"; };
+		4A28465714EAAFE50069E054 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A28465914EAAFE50069E054 /* Exercise6-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercise6-Prefix.pch"; sourceTree = "<group>"; };
+		4A28465A14EAAFE50069E054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A28465C14EAAFE50069E054 /* Exercise6AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exercise6AppDelegate.h; sourceTree = "<group>"; };
+		4A28465D14EAAFE50069E054 /* Exercise6AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exercise6AppDelegate.m; sourceTree = "<group>"; };
+		4A28466014EAAFE50069E054 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4A28466D14EAB02E0069E054 /* ExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseViewController.h; sourceTree = "<group>"; };
+		4A28466E14EAB02E0069E054 /* ExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseViewController.m; sourceTree = "<group>"; };
+		4A28466F14EAB02E0069E054 /* ExerciseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExerciseViewController.xib; sourceTree = "<group>"; };
+		4A28467314EAD7780069E054 /* BeerIcon001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeerIcon001.png; sourceTree = "<group>"; };
+		4A28467414EAD7780069E054 /* BeerIcon002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeerIcon002.png; sourceTree = "<group>"; };
+		4A28467514EAD7780069E054 /* BeerIcon003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeerIcon003.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A28464614EAAFE50069E054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A28464E14EAAFE50069E054 /* UIKit.framework in Frameworks */,
+				4A28465014EAAFE50069E054 /* Foundation.framework in Frameworks */,
+				4A28465214EAAFE50069E054 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A28463E14EAAFE50069E054 = {
+			isa = PBXGroup;
+			children = (
+				4A28465314EAAFE50069E054 /* Exercise6 */,
+				4A28464C14EAAFE50069E054 /* Frameworks */,
+				4A28464A14EAAFE50069E054 /* Products */,
+				4A28467214EAD7560069E054 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		4A28464A14EAAFE50069E054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A28464914EAAFE50069E054 /* Exercise6.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A28464C14EAAFE50069E054 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A28464D14EAAFE50069E054 /* UIKit.framework */,
+				4A28464F14EAAFE50069E054 /* Foundation.framework */,
+				4A28465114EAAFE50069E054 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A28465314EAAFE50069E054 /* Exercise6 */ = {
+			isa = PBXGroup;
+			children = (
+				4A28465C14EAAFE50069E054 /* Exercise6AppDelegate.h */,
+				4A28465D14EAAFE50069E054 /* Exercise6AppDelegate.m */,
+				4A28465F14EAAFE50069E054 /* MainWindow.xib */,
+				4A28466D14EAB02E0069E054 /* ExerciseViewController.h */,
+				4A28466E14EAB02E0069E054 /* ExerciseViewController.m */,
+				4A28466F14EAB02E0069E054 /* ExerciseViewController.xib */,
+				4A00F6C114FEAFEE00EDFC55 /* ExerciseModel.h */,
+				4A00F6C214FEAFEE00EDFC55 /* ExerciseModel.m */,
+				4A28465414EAAFE50069E054 /* Supporting Files */,
+			);
+			path = Exercise6;
+			sourceTree = "<group>";
+		};
+		4A28465414EAAFE50069E054 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A28465514EAAFE50069E054 /* Exercise6-Info.plist */,
+				4A28465614EAAFE50069E054 /* InfoPlist.strings */,
+				4A28465914EAAFE50069E054 /* Exercise6-Prefix.pch */,
+				4A28465A14EAAFE50069E054 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A28467214EAD7560069E054 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A28467314EAD7780069E054 /* BeerIcon001.png */,
+				4A28467414EAD7780069E054 /* BeerIcon002.png */,
+				4A28467514EAD7780069E054 /* BeerIcon003.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A28464814EAAFE50069E054 /* Exercise6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A28466A14EAAFE50069E054 /* Build configuration list for PBXNativeTarget "Exercise6" */;
+			buildPhases = (
+				4A28464514EAAFE50069E054 /* Sources */,
+				4A28464614EAAFE50069E054 /* Frameworks */,
+				4A28464714EAAFE50069E054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Exercise6;
+			productName = Exercise6;
+			productReference = 4A28464914EAAFE50069E054 /* Exercise6.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A28464014EAAFE50069E054 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4A28464314EAAFE50069E054 /* Build configuration list for PBXProject "Exercise6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A28463E14EAAFE50069E054;
+			productRefGroup = 4A28464A14EAAFE50069E054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A28464814EAAFE50069E054 /* Exercise6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A28464714EAAFE50069E054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A28465814EAAFE50069E054 /* InfoPlist.strings in Resources */,
+				4A28466114EAAFE50069E054 /* MainWindow.xib in Resources */,
+				4A28467114EAB02E0069E054 /* ExerciseViewController.xib in Resources */,
+				4A28467614EAD7780069E054 /* BeerIcon001.png in Resources */,
+				4A28467714EAD7780069E054 /* BeerIcon002.png in Resources */,
+				4A28467814EAD7780069E054 /* BeerIcon003.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A28464514EAAFE50069E054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A28465B14EAAFE50069E054 /* main.m in Sources */,
+				4A28465E14EAAFE50069E054 /* Exercise6AppDelegate.m in Sources */,
+				4A28467014EAB02E0069E054 /* ExerciseViewController.m in Sources */,
+				4A00F6C314FEAFEE00EDFC55 /* ExerciseModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A28465614EAAFE50069E054 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A28465714EAAFE50069E054 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A28465F14EAAFE50069E054 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A28466014EAAFE50069E054 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A28466814EAAFE50069E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A28466914EAAFE50069E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4A28466B14EAAFE50069E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise6/Exercise6-Prefix.pch";
+				INFOPLIST_FILE = "Exercise6/Exercise6-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A28466C14EAAFE50069E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise6/Exercise6-Prefix.pch";
+				INFOPLIST_FILE = "Exercise6/Exercise6-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A28464314EAAFE50069E054 /* Build configuration list for PBXProject "Exercise6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A28466814EAAFE50069E054 /* Debug */,
+				4A28466914EAAFE50069E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A28466A14EAAFE50069E054 /* Build configuration list for PBXNativeTarget "Exercise6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A28466B14EAAFE50069E054 /* Debug */,
+				4A28466C14EAAFE50069E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A28464014EAAFE50069E054 /* Project object */;
+}
