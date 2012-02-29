@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A00F6C314FEAFEE00EDFC55 /* ExerciseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A00F6C214FEAFEE00EDFC55 /* ExerciseModel.m */; };
 		4A28464E14EAAFE50069E054 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A28464D14EAAFE50069E054 /* UIKit.framework */; };
 		4A28465014EAAFE50069E054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A28464F14EAAFE50069E054 /* Foundation.framework */; };
 		4A28465214EAAFE50069E054 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A28465114EAAFE50069E054 /* CoreGraphics.framework */; };
@@ -23,8 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A00F6C114FEAFEE00EDFC55 /* ExerciseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseModel.h; sourceTree = "<group>"; };
-		4A00F6C214FEAFEE00EDFC55 /* ExerciseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseModel.m; sourceTree = "<group>"; };
 		4A28464914EAAFE50069E054 /* Exercise6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A28464D14EAAFE50069E054 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4A28464F14EAAFE50069E054 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,8 +92,6 @@
 				4A28466D14EAB02E0069E054 /* ExerciseViewController.h */,
 				4A28466E14EAB02E0069E054 /* ExerciseViewController.m */,
 				4A28466F14EAB02E0069E054 /* ExerciseViewController.xib */,
-				4A00F6C114FEAFEE00EDFC55 /* ExerciseModel.h */,
-				4A00F6C214FEAFEE00EDFC55 /* ExerciseModel.m */,
 				4A28465414EAAFE50069E054 /* Supporting Files */,
 			);
 			path = Exercise6;
@@ -189,7 +184,6 @@
 				4A28465B14EAAFE50069E054 /* main.m in Sources */,
 				4A28465E14EAAFE50069E054 /* Exercise6AppDelegate.m in Sources */,
 				4A28467014EAB02E0069E054 /* ExerciseViewController.m in Sources */,
-				4A00F6C314FEAFEE00EDFC55 /* ExerciseModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

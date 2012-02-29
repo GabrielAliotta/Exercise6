@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface ExerciseViewController : UIViewController {
+@interface ExerciseViewController : UIViewController <UIPickerViewDelegate,UIPickerViewDataSource> {
 }
 @property (nonatomic, retain) IBOutlet UILabel *myLabel;
 @property (nonatomic, retain) IBOutlet UIImageView *myImage;

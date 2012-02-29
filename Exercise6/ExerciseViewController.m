@@ -7,8 +7,6 @@
 //
 
 #import "ExerciseViewController.h"
-#import "ExerciseModel.h"
-
 
 @implementation ExerciseViewController
 @synthesize myLabel = _myLabel;
@@ -45,9 +43,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    ExerciseModel *myExerciseModel = [[ExerciseModel alloc] initWithImage: _myImage andLabel: _myLabel];
-    _myPickerView.delegate = myExerciseModel;
-    _myPickerView.dataSource = myExerciseModel;    
     _myImage.image = [UIImage imageNamed:@"BeerIcon001.png"];
     _myLabel.text = @"Porter";
 }
@@ -65,5 +60,61 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
+    return 1;
+}
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView
+numberOfRowsInComponent:(NSInteger)component{
+    return 3;
+}
+
+- (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view{
+    UIImage *i;
+    switch (row) {
+        case 0:
+            i = [UIImage imageNamed:@"BeerIcon001.png"];
+            break;
+        case 1:
+            i = [UIImage imageNamed:@"BeerIcon002.png"];
+            break;
+        case 2:
+            i = [UIImage imageNamed:@"BeerIcon003.png"];
+            break;
+        default:
+            i = [UIImage imageNamed:@"BeerIcon001.png"];
+            break;
+    }
+    UIImageView *iv = [[UIImageView alloc] initWithImage:i];
+    [iv autorelease];
+    return iv;
+}
+
+-(CGFloat)pickerView:(UIPickerView *)pickerView
+rowHeightForComponent:(NSInteger)component{
+    return 110;
+}
+
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row
+       inComponent:(NSInteger)component{
+    switch (row) {
+        case 0:
+            _myImage.image = [UIImage imageNamed:@"BeerIcon001.png"];
+            _myLabel.text = @"Porter";
+            break;
+        case 1:
+            _myImage.image = [UIImage imageNamed:@"BeerIcon002.png"];
+            _myLabel.text = @"Lager";
+            break;
+        case 2:
+            _myImage.image = [UIImage imageNamed:@"BeerIcon003.png"];
+            _myLabel.text = @"Pilsner";
+            break;
+        default:
+            _myImage.image = [UIImage imageNamed:@"BeerIcon001.png"];
+            _myLabel.text = @"Porter";
+            break;
+    }
+}
 
 @end
